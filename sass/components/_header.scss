@@ -1,0 +1,117 @@
+@import "utils/header-animation";
+
+header {
+    background-image: url("../assets/a010236ba4b4ce4f60a1526180eadc48.jpg");
+    height: 83vh;
+    background-size: cover;
+    background-position: center top;
+
+    .blue-effect {
+        z-index: 1;
+        height: 100%;
+        background: linear-gradient(
+            100deg,
+            rgba(0, 0, 0, 0.7) 0,
+            rgba(0, 8, 56, 0.7) 40%,
+            rgba(0, 8, 56, 0.7) 60%,
+            rgba(0, 0, 0, 0.7) 100%
+        );
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .navbar {
+            z-index: 1;
+            height: 5em;
+            background-color: $black;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            svg {
+                height: 43px;
+                color: $yellow;
+            }
+
+            ul {
+                z-index: 1;
+                font-family: "Open Sans", sans-serif;
+                color: $secondary-white;
+                width: 400px;
+                font-size: 19px;
+                align-items: center;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+            }
+        }
+        
+        .hello-container {
+            z-index: 1;
+            background: transparent;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+            .interested-players {
+                z-index: 1;
+                color: $secondary-blue;
+                font-family: $title-font;
+                font-style: italic;
+                font-size: 13px;
+                margin-top: 170px;
+            }
+            .title {
+                z-index: 1;
+                margin-top: 60px;
+                font-family: $title-font;
+                font-weight: bold;
+                font-size: 50px;
+            }
+            .primary-btns {
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+
+                button {
+                    border-radius: 5px;
+                    font-family: $title-font;
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: $white;
+                    margin-top: 30px;
+                    height: 45px;
+                    width: 220px;
+                    border: none;
+                    padding: 10px;
+                    background-color: $primary-blue;
+                }
+
+                .test {
+                    z-index: 1;
+                    button {
+                        background: $secondary-blue;
+                    }
+                }
+            }
+        }
+    }
+
+    .particle-container {
+        margin-top: -0.4em;
+        width: 100%;
+        height: 10px;
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        pointer-events: none;
+
+        .particle {
+            border-radius: 50%;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            background-color: white;
+            @include keyframe;
+        }
+    }
+}
