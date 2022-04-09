@@ -1,4 +1,5 @@
-@import "utils/header-animation";
+@import "utils/header-mixin";
+@import "components/button";
 
 header {
     background-image: url("../assets/a010236ba4b4ce4f60a1526180eadc48.jpg");
@@ -23,13 +24,17 @@ header {
         .navbar {
             z-index: 1;
             height: 5em;
-            background-color: $black;
+            background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: space-around;
-            svg {
-                height: 43px;
-                color: $yellow;
+
+            .logo{
+                cursor: pointer;
+                svg {
+                    height: 43px;
+                    color: $yellow;
+                }
             }
 
             ul {
@@ -42,9 +47,13 @@ header {
                 display: flex;
                 justify-content: space-around;
                 flex-direction: row;
+                a {
+                    color: $white;
+                    text-decoration: none;
+                }
             }
         }
-        
+
         .hello-container {
             z-index: 1;
             background: transparent;
@@ -73,17 +82,7 @@ header {
                 flex-direction: column;
 
                 button {
-                    border-radius: 5px;
-                    font-family: $title-font;
-                    font-weight: bold;
-                    font-size: 20px;
-                    color: $white;
-                    margin-top: 30px;
-                    height: 45px;
-                    width: 220px;
-                    border: none;
-                    padding: 10px;
-                    background-color: $primary-blue;
+                   @include button;
                 }
 
                 .test {

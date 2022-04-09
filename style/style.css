@@ -103,6 +103,7 @@ section {
 
 html {
   color: #FFFFFF;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -150,12 +151,15 @@ header .blue-effect {
 header .blue-effect .navbar {
   z-index: 1;
   height: 5em;
-  background-color: #161616;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-header .blue-effect .navbar svg {
+header .blue-effect .navbar .logo {
+  cursor: pointer;
+}
+header .blue-effect .navbar .logo svg {
   height: 43px;
   color: #d69812;
 }
@@ -169,6 +173,10 @@ header .blue-effect .navbar ul {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+}
+header .blue-effect .navbar ul a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 header .blue-effect .hello-container {
   z-index: 1;
