@@ -1,0 +1,32 @@
+// Mixin for header animaton
+@mixin keyframe($name: animate, $count: infinite) {
+    @keyframes animate {
+        0% {
+            visibility: visible;
+            transform: scale(0) translateY(0%);
+        }
+        3% {
+            transform: scale(1) translateY(0%);
+        }
+        100% {
+            transform: translateY(-800px);
+        }
+    }
+    animation: $name linear $count;
+}
+
+//Mixin for btns
+@mixin button {
+    border-radius: 5px;
+                    font-family: $title-font;
+                    font-weight: bold;
+                    font-size: 2.0rem;
+                    color: $white;
+                    margin-top: 3.0rem;
+                    height: 4.5rem;
+                    width: 22.0rem;
+                    border: none;
+                    padding: 1.0rem;
+                    background-color: $primary-blue;
+};
+

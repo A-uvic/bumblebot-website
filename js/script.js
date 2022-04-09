@@ -20,7 +20,7 @@ const createParticle = () => {
     container.appendChild(createParticle)
 }
 
-//Function to check the limit of particles in screen
+//Function to check the limit of particles on screen
 const checkContainer = () => {
     if (container.childNodes.length < 80) {
         createParticle()

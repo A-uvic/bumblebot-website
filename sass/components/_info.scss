@@ -1,0 +1,52 @@
+.info {
+    color: $light-blue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+    .first-img {
+        width: 100%;
+        height: 100%;
+        img {
+            position: relative;
+            top: 28.6%;
+            max-height: 50rem;
+        }
+    }
+
+    .info-text {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            text-align: center;
+            font-family: $secondary-font;
+            color: $light-blue;
+            font-size: 5rem;
+        }
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+            margin-top: 2.5rem;
+            font-size: 2rem;
+            font-family: $primary-font;
+        }
+        .text {
+            padding-right: 5rem;
+        }
+        .shorts {
+            padding-top: 5rem;
+            i {
+                padding-right: 1rem;
+            }
+            p {
+                font-weight: italic;
+                color: $light-blue;
+            }
+        }
+    }
+}

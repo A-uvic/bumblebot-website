@@ -103,10 +103,12 @@ section {
 html {
 	color: $white;
 	scroll-behavior: smooth;
+	font-size: 62.5%;
 }
 body {
 	line-height: 1;
 	background-color: $black;
+	font-size: 1.6rem;
 }
 ol,
 ul {
