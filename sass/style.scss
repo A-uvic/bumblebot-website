@@ -2,12 +2,10 @@
 @import "config/variables";
 @import "base/reset";
 
-
-
 //General Components
 @import "components/card";
 @import "components/scroll";
-
+@import "components/acordion";
 
 //Layout
 @import"layout/header";
@@ -16,5 +14,4 @@
 @import "layout/faq";
 
 //Media Queries
-
 @import "base/responsive";
