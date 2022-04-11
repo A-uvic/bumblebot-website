@@ -254,6 +254,11 @@ table {
   }
 }
 
+.acordion {
+  background-color: red;
+  max-width: 80%;
+}
+
 header {
   background-image: url("../assets/a010236ba4b4ce4f60a1526180eadc48.jpg");
   height: 100vh;
@@ -477,5 +482,10 @@ header .particle-container .particle {
 
   .first-img {
     display: none;
+  }
+}
+@media (max-width: 1050px) {
+  .prices .cards {
+    flex-direction: column;
   }
 }
