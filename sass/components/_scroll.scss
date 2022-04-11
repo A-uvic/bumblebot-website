@@ -1,0 +1,23 @@
+@import "utils/mixin";
+
+.scroll-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    opacity: 0.2;
+    filter: blur(.5px);
+    
+    .scroll {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 3rem;
+        border: $white solid .3rem;
+        border-radius: 2rem;
+        .scroll-arrow{
+            @include loop;
+        }
+    }
+}

@@ -5,9 +5,16 @@
 
 
 //General Components
-@import "components/info";
-@import "components/prices";
+@import "components/card";
+@import "components/scroll";
 
 
 //Layout
 @import"layout/header";
+@import "layout/info";
+@import "layout/prices";
+@import "layout/faq";
+
+//Media Queries
+
+@import "base/responsive";

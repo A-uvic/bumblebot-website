@@ -9,10 +9,10 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="style/style.css">
-    
+
     <!-- Icon -->
     <link rel="icon" href="">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,8 +41,8 @@
                     </svg>
                 </div>
                 <ul>
-                    <li><a href="#About">About-us</a></li>
-                    <li><a href="#">Prices</a></li>
+                    <li><a href="#about">About-us</a></li>
+                    <li><a href="#prices">Prices</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Download</a> | <a href="">Setup</a></li>
                 </ul>
@@ -60,13 +60,18 @@
                     <div class="test"><button>TRY NOW</button></div>
                 </div>
             </div>
+            <div class="scroll-container">
+                <div class="scroll">
+                        <i class="scroll-arrow fas fa-angle-double-down"></i>
+                </div>
+            </div>
         </div>
         <div class="particle-container" id="particle-container">
         </div>
     </header>
 
     <main>
-        <section class="info" id="About">
+        <section class="info" id="about">
             <div class="first-img">
                 <img src="https://wadbot.lol/img/twitch2.png" alt="">
             </div>
@@ -87,13 +92,66 @@
                 </div>
             </div>
         </section>
-        <section class="prices">
-            <h1>Recurring WadBot Subscriptions</h1>
-            <p>License will be sent to your e-mail right after the payment has been processed.
-                If you have any questions, open a ticket in our Discord. </p>
-                <div class="cards">
-
+        <section class="prices" id="prices">
+            <div class="prices-info">
+                <h1>Recurring Bumblebot Subscriptions</h1>
+                <p>License will be sent to your e-mail right after the payment has been processed</p>
+                <p>If you have any questions, open a ticket in our Discord</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-bg bronze-bg">
+                        <div class="effect bronze-effect">
+                            <h1>Bronze</h1>
+                        </div>
+                    </div>
+                    <ul class="card-features">
+                        <li>INSTANT ACCESS<i class="fa-solid fa-check"></i></li>
+                        <li>TARGET SELECTOR<i class="fa-solid fa-check"></i></li>
+                        <li>INSTANT DELIVERY<i class="fa-solid fa-check"></i></li>
+                    </ul>
+                    <button class="payment-btn bronze-btn">10U$</button>
                 </div>
+                <div class="card">
+                    <div class="card-bg silver-bg">
+                        <div class="effect silver-effect">
+                            <h1>Silver</h1>
+                        </div>
+                    </div>
+                    <ul class="card-features">
+                        <li>INSTANT ACCESS<i class="fa-solid fa-check"></i></li>
+                        <li>TARGET SELECTOR<i class="fa-solid fa-check"></i></li>
+                        <li>INSTANT DELIVERY<i class="fa-solid fa-check"></i></li>
+                        <li>SAVE 31%<i class="fa-solid fa-check"></i></li>
+                    </ul>
+                    <button class="payment-btn silver-btn">40U$</button>
+                </div>
+                <div class="card">
+                    <div class="card-bg gold-bg">
+                        <div class="effect gold-effect">
+                            <h1>Gold</h1>
+                        </div>
+                    </div>
+                    <ul class="card-features">
+                        <li>INSTANT ACCESS <i class="fa-solid fa-check"></i></li>
+                        <li>TARGET SELECTOR<i class="fa-solid fa-check"></i></li>
+                        <li>INSTANT DELIVERY<i class="fa-solid fa-check"></i></li>
+                        <li>SAVE 50%<i class="fa-solid fa-check"></i></li>
+                        <li>GET VIP ACCESS<i class="fa-solid fa-check"></i></li>
+                    </ul>
+                    <button class="payment-btn gold-btn">60U$</button>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="faq-title">
+                <h1>Frequently Asked Questions</h1>
+            </div>
+            <div class="acordion">
+                <div class="acordion-item" id="question1">
+                    <a href="#question1">How do I buy WadBot?<i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
         </section>
     </main>
     <script src="js/script.js"></script>

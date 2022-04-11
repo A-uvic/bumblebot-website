@@ -1,3 +1,4 @@
+//Colors
 $primary-blue: #0078ff;
 $secondary-blue: #01afe9;
 $light-blue: #347CDB;
@@ -5,8 +6,16 @@ $yellow: #d69812;
 $white: #FFFFFF;
 $secondary-white: #dad8d8;
 $black: #161616;
+$card-bg: #121933;
 
+//Background colors
+$gradient-background: radial-gradient(circle, rgba(0, 120, 255, 0.6530813008797269) 0%, rgba(0, 43, 110, 1) 100%);
 
+//Fonts
 $title-font: 'Fira Sans', sans-serif;
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Titillium Web', sans-serif;
+
+//Sizes
+$title-font-size: clamp(3rem, 5vw, 5rem);
+$base-font-size: clamp(2rem, 2vw, 2rem);

@@ -1,4 +1,5 @@
 .info {
+    padding-top: 20rem;
     color: $light-blue;
     display: flex;
     align-items: center;
@@ -6,37 +7,32 @@
     width: 100%;
 
     .first-img {
-        width: 100%;
-        height: 100%;
         img {
-            position: relative;
-            top: 28.6%;
-            max-height: 50rem;
+            max-width: 110%;
+            max-height: 110%;
         }
     }
 
     .info-text {
         width: 100%;
-        height: 100%;
+        max-height: 100%;
         flex-direction: column;
         display: flex;
         justify-content: center;
+        padding: 0 10rem;
 
         h1 {
             text-align: center;
             font-family: $secondary-font;
             color: $light-blue;
-            font-size: 5rem;
+            font-size: $title-font-size;
         }
         p {
             text-align: justify;
             text-justify: inter-word;
             margin-top: 2.5rem;
-            font-size: 2rem;
+            font-size: $base-font-size;
             font-family: $primary-font;
-        }
-        .text {
-            padding-right: 5rem;
         }
         .shorts {
             padding-top: 5rem;
