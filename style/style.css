@@ -261,7 +261,7 @@ table {
 .acordion .acordion-item {
   font-family: "Roboto", sans-serif;
   margin-top: 2rem;
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(2rem, 2vw, 2rem);
   background-color: #347CDB;
 }
 .acordion .acordion-item .acordion-title {
@@ -447,7 +447,7 @@ header .particle-container .particle {
   text-align: justify;
   text-justify: inter-word;
   margin-top: 2.5rem;
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(2rem, 2vw, 2rem);
   font-family: "Roboto", sans-serif;
 }
 .info .info-text .shorts {
@@ -476,11 +476,11 @@ header .particle-container .particle {
 }
 .prices p {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(2rem, 2vw, 2rem);
 }
 .prices li {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(2rem, 2vw, 2rem);
 }
 .prices .prices-info {
   display: flex;
@@ -510,6 +510,46 @@ header .particle-container .particle {
   font-family: "Titillium Web", sans-serif;
   font-size: clamp(3rem, 5vw, 5rem);
   color: #347CDB;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #161616;
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(2rem, 2vw, 2rem);
+  padding: 5rem 0;
+  width: 100%;
+}
+footer h1 {
+  color: #FFFFFF;
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-family: "Fira Sans", sans-serif;
+  opacity: 0.1;
+}
+footer .credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+  width: 80%;
+}
+footer .credits h2 {
+  font-size: clamp(2rem, 2vw, 2rem);
+  padding: 0.7rem 0;
+  font-family: "Titillium Web", sans-serif;
+}
+footer .credits h2 mark {
+  background-color: transparent;
+  color: #347CDB;
+}
+footer .links a {
+  color: #01afe9;
+  font-size: clamp(2rem, 2vw, 2rem);
+  padding: 0 1rem;
 }
 
 @media (max-width: 1668px) {
