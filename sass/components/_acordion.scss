@@ -6,7 +6,7 @@
         margin-top: 2rem;
         font-size: $base-font-size;
         background-color: $light-blue;
-        
+
         .acordion-title {
             padding: 2rem;
             display: flex;
@@ -14,8 +14,11 @@
             text-decoration: none;
             color: $white;
             cursor: pointer;
-            i{
-                transition: 0.5s
+            label {
+                cursor: pointer;
+            }
+            i {
+                transition: 0.5s;
             }
         }
 
@@ -32,12 +35,11 @@
 
 // Javascript related
 .acordion-item.active {
-
     .awnser {
         height: 10rem;
         padding: 2rem 0;
     }
 }
-i.active{
+i.active {
     transform: rotate(90deg);
 }
