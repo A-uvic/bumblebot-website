@@ -1,18 +1,19 @@
 @media (max-width: 1668px) {
-    .info{
-       padding: 5rem; 
-    }
-    .first-img{
-        display: none;
-    }
-}
-
-@media (max-width: 1050px) {
-    .prices{
-        .cards{
-            flex-direction: column;
+    .info {
+        padding: 10rem 0;
+        .info-text {
+            padding: 0 3rem;
+        }
+        .first-img {
+            display: none;
         }
     }
 }
 
-
+@media (max-width: 1050px) {
+    .prices {
+        .cards {
+            flex-direction: column;
+        }
+    }
+}

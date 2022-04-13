@@ -255,8 +255,42 @@ table {
 }
 
 .acordion {
-  background-color: red;
-  max-width: 80%;
+  width: min(95.1rem, 80%);
+  margin-top: 3rem;
+}
+.acordion .acordion-item {
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  background-color: #347CDB;
+}
+.acordion .acordion-item .acordion-title {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.acordion .acordion-item .acordion-title i {
+  transition: 0.5s;
+}
+.acordion .acordion-item .awnser {
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  position: relative;
+  transition: 0.5s;
+  background-color: #161616;
+}
+
+.acordion-item.active .awnser {
+  height: 10rem;
+  padding: 2rem 0;
+}
+
+i.active {
+  transform: rotate(90deg);
 }
 
 header {
@@ -410,7 +444,7 @@ header .particle-container .particle {
   text-align: justify;
   text-justify: inter-word;
   margin-top: 2.5rem;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   font-family: "Roboto", sans-serif;
 }
 .info .info-text .shorts {
@@ -439,11 +473,11 @@ header .particle-container .particle {
 }
 .prices p {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 .prices li {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 .prices .prices-info {
   display: flex;
@@ -477,10 +511,12 @@ header .particle-container .particle {
 
 @media (max-width: 1668px) {
   .info {
-    padding: 5rem;
+    padding: 10rem 0;
   }
-
-  .first-img {
+  .info .info-text {
+    padding: 0 3rem;
+  }
+  .info .first-img {
     display: none;
   }
 }

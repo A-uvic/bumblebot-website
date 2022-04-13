@@ -1,4 +1,43 @@
-.acordion{
-    background-color: red;
-    max-width: 80%;
+.acordion {
+    width: min(95.1rem, 80%);
+    margin-top: 3rem;
+    .acordion-item {
+        font-family: $primary-font;
+        margin-top: 2rem;
+        font-size: $base-font-size;
+        background-color: $light-blue;
+        
+        .acordion-title {
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            color: $white;
+            cursor: pointer;
+            i{
+                transition: 0.5s
+            }
+        }
+
+        .awnser {
+            overflow: hidden;
+            height: 0;
+            width: 100%;
+            position: relative;
+            transition: 0.5s;
+            background-color: $black;
+        }
+    }
+}
+
+// Javascript related
+.acordion-item.active {
+
+    .awnser {
+        height: 10rem;
+        padding: 2rem 0;
+    }
+}
+i.active{
+    transform: rotate(90deg);
 }
