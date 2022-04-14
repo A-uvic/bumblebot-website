@@ -171,17 +171,13 @@ table {
 }
 
 .navbar.sticky {
-  z-index: 2;
+  z-index: 111111;
   position: fixed;
   height: 5rem;
   top: 0%;
   bottom: 0%;
   background-color: #161616;
   width: 100%;
-}
-
-.navbar.sticky.active {
-  display: none;
 }
 
 .card {
@@ -359,7 +355,6 @@ header .blue-effect {
   text-align: center;
 }
 header .blue-effect .hello-container {
-  z-index: 1;
   background: transparent;
   display: flex;
   flex-direction: column;

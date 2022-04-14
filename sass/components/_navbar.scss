@@ -36,14 +36,11 @@
 
 //Js related styles
 .navbar.sticky{
-    z-index: 2;
+    z-index: 111111;
     position: fixed;
     height: 5rem;
     top: 0%;
     bottom: 0%;
     background-color: $light-black;
     width: 100%;
-}
-.navbar.sticky.active{
-    display: none;
 }
