@@ -10,13 +10,11 @@ I've used JavaScript, sass and fetch API (js). The challenge in this project was
 
 *Particle effect in header*
 
-![image-20220407202140629](C:\Users\Victor\AppData\Roaming\Typora\typora-user-images\image-20220407202140629.png)
-
-
+![alt text](https://imgur.com/8kuoP9l)
 
 
 
 ## How to use?
 
-Just follow this link.
+Just follow this [link](https://bumblebot.netlify.app/).
 
