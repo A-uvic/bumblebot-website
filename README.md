@@ -10,7 +10,7 @@ I've used JavaScript, sass and fetch API (js). The challenge in this project was
 
 *Particle effect in header*
 
-![](https://imgur.com/8kuoP9l)
+![alt](https://imgur.com/8kuoP9l)
 
 
 

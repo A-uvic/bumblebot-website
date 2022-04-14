@@ -261,7 +261,7 @@ table {
 .acordion .acordion-item {
   font-family: "Roboto", sans-serif;
   margin-top: 2rem;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2rem);
   background-color: #347CDB;
 }
 .acordion .acordion-item .acordion-title {
@@ -441,13 +441,13 @@ header .particle-container .particle {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   color: #347CDB;
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(4rem, 5vw, 5rem);
 }
 .info .info-text p {
   text-align: justify;
   text-justify: inter-word;
   margin-top: 2.5rem;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2rem);
   font-family: "Roboto", sans-serif;
 }
 .info .info-text .shorts {
@@ -472,15 +472,15 @@ header .particle-container .particle {
 }
 .prices h1 {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(4rem, 5vw, 5rem);
 }
 .prices p {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2rem);
 }
 .prices li {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2rem);
 }
 .prices .prices-info {
   display: flex;
@@ -508,7 +508,7 @@ header .particle-container .particle {
 }
 .faq .faq-title h1 {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(4rem, 5vw, 5rem);
   color: #347CDB;
 }
 
@@ -519,13 +519,13 @@ footer {
   flex-direction: column;
   background-color: #161616;
   font-family: "Roboto", sans-serif;
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2rem);
   padding: 5rem 0;
   width: 100%;
 }
 footer h1 {
   color: #FFFFFF;
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(4rem, 5vw, 5rem);
   font-family: "Fira Sans", sans-serif;
   opacity: 0.1;
 }
@@ -538,7 +538,7 @@ footer .credits {
   width: 80%;
 }
 footer .credits h2 {
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2rem);
   padding: 0.7rem 0;
   font-family: "Titillium Web", sans-serif;
 }
@@ -547,8 +547,8 @@ footer .credits h2 mark {
   color: #347CDB;
 }
 footer .links a {
-  color: #01afe9;
-  font-size: clamp(2rem, 2vw, 2rem);
+  color: #347CDB;
+  font-size: clamp(2rem, 3vw, 2rem);
   padding: 0 1rem;
 }
 
