@@ -10,8 +10,11 @@ I've used JavaScript, sass and fetch API (js). The challenge in this project was
 
 *Particle effect in header*
 
-![](assets\demo\image-20220407202140629.png)
+![](./assets/demo/image-20220407202140629.png)
 
+*Full Page*
+
+![](./assets/demo/screenshot-bumblebot.netlify.app-2022.04.13-20_58_31.png)
 
 
 ## How to use?
