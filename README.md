@@ -9,8 +9,7 @@ I've used JavaScript, sass and fetch API (js). The challenge in this project was
 ## Demo
 
 *Particle effect in header*
-
-![alt text](https://imgur.com/8kuoP9l)
+<img src="https://imgur.com/8kuoP9l" alt="">
 
 
 
