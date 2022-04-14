@@ -10,7 +10,7 @@ I've used JavaScript, sass and fetch API (js). The challenge in this project was
 
 *Particle effect in header*
 
-![github-small](https://imgur.com/8kuoP9l)
+![](assets\demo\image-20220407202140629.png)
 
 
 
