@@ -20,39 +20,6 @@ header {
         flex-direction: column;
         text-align: center;
 
-        .navbar {
-            z-index: 1;
-            height: 5em;
-            background-color: transparent;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-
-            .logo{
-                cursor: pointer;
-                svg {
-                    height: 4.3rem;
-                    color: $yellow;
-                }
-            }
-
-            ul {
-                z-index: 1;
-                font-family: "Open Sans", sans-serif;
-                color: $secondary-white;
-                width: 40.0rem;
-                font-size: 1.9rem;
-                align-items: center;
-                display: flex;
-                justify-content: space-around;
-                flex-direction: row;
-                a {
-                    color: $white;
-                    text-decoration: none;
-                }
-            }
-        }
-
         .hello-container {
             z-index: 1;
             background: transparent;
@@ -93,7 +60,7 @@ header {
             }
         }
     }
-
+    
     .particle-container {
         margin-top: -0.4em;
         width: 100%;

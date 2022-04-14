@@ -136,6 +136,54 @@ table {
   border-spacing: 0;
 }
 
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.5s;
+  padding: 2rem 0;
+}
+.navbar .logo {
+  cursor: pointer;
+}
+.navbar .logo svg {
+  height: 4.3rem;
+  color: #d69812;
+}
+.navbar ul {
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+  color: #dad8d8;
+  width: 40rem;
+  font-size: 1.9rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.navbar ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navbar.sticky {
+  z-index: 2;
+  position: fixed;
+  height: 5rem;
+  top: 0%;
+  bottom: 0%;
+  background-color: #161616;
+  width: 100%;
+}
+
+.navbar.sticky.active {
+  display: none;
+}
+
 .card {
   background-color: #121933;
   height: 40rem;
@@ -309,36 +357,6 @@ header .blue-effect {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-header .blue-effect .navbar {
-  z-index: 1;
-  height: 5em;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-header .blue-effect .navbar .logo {
-  cursor: pointer;
-}
-header .blue-effect .navbar .logo svg {
-  height: 4.3rem;
-  color: #d69812;
-}
-header .blue-effect .navbar ul {
-  z-index: 1;
-  font-family: "Open Sans", sans-serif;
-  color: #dad8d8;
-  width: 40rem;
-  font-size: 1.9rem;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-header .blue-effect .navbar ul a {
-  color: #FFFFFF;
-  text-decoration: none;
 }
 header .blue-effect .hello-container {
   z-index: 1;

@@ -1,0 +1,49 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+    padding: 2rem 0;
+
+    .logo{
+        cursor: pointer;
+        svg {
+            height: 4.3rem;
+            color: $yellow;
+        }
+    }
+
+    ul {
+        z-index: 1;
+        font-family: "Open Sans", sans-serif;
+        color: $secondary-white;
+        width: 40.0rem;
+        font-size: 1.9rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}
+
+//Js related styles
+.navbar.sticky{
+    z-index: 2;
+    position: fixed;
+    height: 5rem;
+    top: 0%;
+    bottom: 0%;
+    background-color: $light-black;
+    width: 100%;
+}
+.navbar.sticky.active{
+    display: none;
+}
