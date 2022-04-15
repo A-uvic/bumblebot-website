@@ -350,7 +350,7 @@ table {
 .acordion .acordion-item {
   font-family: "Roboto", sans-serif;
   margin-top: 2rem;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   background-color: #347CDB;
 }
 .acordion .acordion-item .acordion-title {
@@ -526,7 +526,7 @@ header .particle-container .particle {
   text-align: justify;
   text-justify: inter-word;
   margin-top: 2.5rem;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   font-family: "Roboto", sans-serif;
 }
 .info .info-text .shorts {
@@ -555,11 +555,11 @@ header .particle-container .particle {
 }
 .prices-container p {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 .prices-container li {
   font-family: "Titillium Web", sans-serif;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 .prices-container .prices {
   width: 100%;
@@ -613,7 +613,7 @@ footer {
   flex-direction: column;
   background-color: #121212;
   font-family: "Roboto", sans-serif;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   padding: 5rem 0;
   width: 100%;
 }
@@ -632,7 +632,7 @@ footer .credits {
   width: 80%;
 }
 footer .credits h2 {
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   padding: 0.7rem 0;
   font-family: "Titillium Web", sans-serif;
 }
@@ -642,7 +642,7 @@ footer .credits h2 mark {
 }
 footer .links a {
   color: #347CDB;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   padding: 0 1rem;
 }
 
