@@ -136,6 +136,21 @@ table {
   border-spacing: 0;
 }
 
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.prices.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.faqs.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 .navbar {
   position: absolute;
   width: 100%;
@@ -176,8 +191,23 @@ table {
   height: 5rem;
   top: 0%;
   bottom: 0%;
-  background-color: #161616;
+  background-color: #121212;
   width: 100%;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.prices.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.faqs.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 .card {
@@ -204,7 +234,7 @@ table {
   padding: 1rem;
   background-color: #0078ff;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 .card .card-bg {
   background-position: center top;
@@ -263,7 +293,22 @@ table {
   background: rgb(97, 96, 95);
 }
 .card .gold-btn {
-  background: rgb(206, 175, 2);
+  background: rgb(255, 215, 0);
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.prices.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.faqs.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 .scroll-container {
@@ -338,6 +383,21 @@ table {
 
 i.active {
   transform: rotate(90deg);
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.prices.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.faqs.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 header {
@@ -437,6 +497,10 @@ header .particle-container .particle {
   align-items: center;
   flex-direction: row;
   width: 100%;
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s ease;
 }
 .info .first-img img {
   max-width: 110%;
@@ -474,7 +538,7 @@ header .particle-container .particle {
   color: #347CDB;
 }
 
-.prices {
+.prices-container {
   background: radial-gradient(circle, rgba(0, 120, 255, 0.6530813009) 0%, rgb(0, 43, 110) 100%);
   display: flex;
   width: 100%;
@@ -483,43 +547,55 @@ header .particle-container .particle {
   flex-direction: column;
   padding: 10rem 0;
 }
-.prices h1 {
+.prices-container h1 {
   font-family: "Titillium Web", sans-serif;
   font-size: clamp(4rem, 5vw, 5rem);
 }
-.prices p {
+.prices-container p {
   font-family: "Titillium Web", sans-serif;
   font-size: clamp(2rem, 3vw, 2rem);
 }
-.prices li {
+.prices-container li {
   font-family: "Titillium Web", sans-serif;
   font-size: clamp(2rem, 3vw, 2rem);
 }
-.prices .prices-info {
+.prices-container .prices {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+.prices-container .prices .prices-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 5rem;
 }
-.prices .prices-info p {
+.prices-container .prices .prices-info p {
   padding-top: 3rem;
 }
-.prices .cards {
+.prices-container .prices .cards {
   display: flex;
   align-items: end;
 }
 
-.faq {
+.faq-container {
   background-color: #121212;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding: 10rem 0;
 }
-.faq .faq-title h1 {
+.faq-container .faqs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+.faq-container .faqs .faq-title h1 {
   font-family: "Titillium Web", sans-serif;
   font-size: clamp(4rem, 5vw, 5rem);
   color: #347CDB;

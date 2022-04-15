@@ -5,8 +5,11 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+    @include reveal;
 
     .first-img {
+       
+
         img {
             max-width: 110%;
             max-height: 110%;
@@ -46,3 +49,4 @@
         }
     }
 }
+// Js related

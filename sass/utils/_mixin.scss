@@ -45,3 +45,23 @@
     background-color: $primary-blue;
     cursor: pointer;
 }
+
+//Reveal mixin
+@mixin reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.prices.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.faqs.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}

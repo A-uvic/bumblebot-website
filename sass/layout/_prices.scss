@@ -1,4 +1,4 @@
-.prices {
+.prices-container {
     background: $gradient-background;
     display: flex;
     width: 100%;
@@ -6,6 +6,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 10rem 0;
+
     h1 {
         font-family: $secondary-font;
         font-size: $title-font-size;
@@ -18,20 +19,23 @@
         font-family: $secondary-font;
         font-size: $base-font-size;
     }
+    .prices {
+        @include reveal;
+        .prices-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 5rem;
 
-    .prices-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 5rem;
-        p{
-            padding-top: 3rem;
+            p {
+                padding-top: 3rem;
+            }
         }
-    }
 
-    .cards {
-        display: flex;
-        align-items: end;
+        .cards {
+            display: flex;
+            align-items: end;
+        }
     }
 }

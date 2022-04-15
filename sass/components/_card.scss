@@ -13,7 +13,7 @@
 
     button {
         @include button;
-        font-family: $primary-font;
+        font-family: $secondary-font;
     }
 
     .card-bg {
@@ -76,6 +76,6 @@
         background: rgb(97, 96, 95);
     }
     .gold-btn {
-        background: rgb(206, 175, 2);
+        background: rgb(255, 215, 0);
     }
 }
