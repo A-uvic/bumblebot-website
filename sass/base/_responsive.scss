@@ -21,3 +21,13 @@ body {
         }
     }
 }
+
+@media (max-width: 498px){
+    .prices{
+        .prices-info{
+            p{
+            font-size: 3vw;
+            }
+        }
+    }
+}

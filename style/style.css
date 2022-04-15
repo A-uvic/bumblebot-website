@@ -246,6 +246,7 @@ table {
   width: 100%;
 }
 .card .card-bg h1 {
+  font-size: 5rem;
   padding: 1rem 0;
 }
 .card .card-bg .effect {
@@ -261,6 +262,7 @@ table {
   padding-top: 2rem;
 }
 .card .card-features li {
+  font-size: 2rem;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -574,7 +576,7 @@ header .particle-container .particle {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
 }
 .prices-container .prices .prices-info p {
   padding: 2rem 0;
@@ -659,5 +661,10 @@ footer .links a {
 @media (max-width: 1050px) {
   .prices .cards {
     flex-direction: column;
+  }
+}
+@media (max-width: 498px) {
+  .prices .prices-info p {
+    font-size: 3vw;
   }
 }
