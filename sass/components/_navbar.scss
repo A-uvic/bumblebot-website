@@ -9,7 +9,7 @@
     transition: 0.5s;
     padding: 2rem 0;
 
-    .logo{
+    .logo {
         cursor: pointer;
         svg {
             height: 4.3rem;
@@ -17,16 +17,17 @@
         }
     }
 
-    ul {
+    .menu {
         z-index: 1;
         font-family: "Open Sans", sans-serif;
         color: $secondary-white;
-        width: 40.0rem;
+        width: 40rem;
         font-size: 1.9rem;
         align-items: center;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        transition: 0.5s ease;
         a {
             color: $white;
             text-decoration: none;
@@ -35,12 +36,19 @@
 }
 
 //Js related styles
-.navbar.sticky{
+.navbar.sticky {
     z-index: 111111;
     position: fixed;
-    height: 5rem;
+    height: 6rem;
     top: 0%;
     bottom: 0%;
     background-color: $black;
     width: 100%;
+}
+
+.navbar {
+    .menu.active {
+        transform: translateX(0);
+        display: flex;
+    }
 }

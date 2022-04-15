@@ -2,6 +2,7 @@
 // Global Variables
 const container = document.getElementById("particle-container")
 const accordion = document.getElementsByClassName("acordion-item")
+const icon = document.querySelector(".menu-icon")
 var counter = 0
 
 
@@ -36,6 +37,14 @@ for (let i = 0; i < accordion.length; i++) {
         this.childNodes[1].lastElementChild.classList.toggle("active")
     });
 }
+//
+icon.addEventListener("click", function(){
+    let menu = document.querySelector(".menu")
+    menu.classList.toggle("active")
+})
+
+
+
 
 // Function to generate aleatory number
 const randomNumber = (min, max) => {

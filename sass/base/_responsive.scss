@@ -1,17 +1,15 @@
 @media (max-width: 1300px) {
-body {
-    .info{
-        img{
+    .info {
+        img {
             display: none;
         }
     }
 }
-}
 
 @media (min-width: 1300px) {
-.info{
-    padding-top: 15rem;
-}
+    .info {
+        padding-top: 15rem;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -22,11 +20,42 @@ body {
     }
 }
 
-@media (max-width: 498px){
-    .prices{
-        .prices-info{
-            p{
-            font-size: 3vw;
+@media (max-width: 810px) {
+    .navbar {
+        z-index: 2;
+        height: 6rem;
+        z-index: 2;
+        justify-content: space-between;
+        background-color: $black;
+        .logo{
+            margin-left: 4rem;
+        }
+        .menu {
+            background-color: $black;
+            top: 70px;
+            left: 0;
+            width: 100%;
+            position: absolute;
+            flex-direction: column;
+            padding: 2rem 0;
+            transform: translateX(-80rem);
+
+            li {
+                padding: 2.5rem 0;
+            }
+        }
+        .menu-icon {
+            margin-right: 4rem;
+            display: flex;
+        }
+    }
+}
+
+@media (max-width: 498px) {
+    .prices {
+        .prices-info {
+            p {
+                font-size: 3vw;
             }
         }
     }
