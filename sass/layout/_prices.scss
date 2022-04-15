@@ -20,22 +20,24 @@
         font-size: $base-font-size;
     }
     .prices {
+        width: 100%;
+        height: 100%;
         @include reveal;
         .prices-info {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 0 5rem;
-
-            p {
-                padding-top: 3rem;
+            width: 100%;
+            p{
+                padding: 2rem 0;
             }
         }
 
         .cards {
             display: flex;
-            align-items: end;
+            align-items: center;
+            justify-content: center;
         }
     }
 }

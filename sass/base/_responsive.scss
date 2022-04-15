@@ -1,13 +1,17 @@
-@media (max-width: 1668px) {
-    .info {
-        padding: 10rem 0;
-        .info-text {
-            padding: 0 3rem;
-        }
-        .first-img {
+@media (max-width: 1300px) {
+body {
+    .info{
+        img{
             display: none;
         }
     }
+}
+}
+
+@media (min-width: 1300px) {
+.info{
+    padding-top: 15rem;
+}
 }
 
 @media (max-width: 1050px) {
