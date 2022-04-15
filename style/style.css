@@ -581,7 +581,7 @@ header .particle-container .particle {
 }
 
 .faq-container {
-  background-color: #121212;
+  background-color: #161616;
   width: 100%;
   padding: 10rem 0;
 }
@@ -606,7 +606,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #161616;
+  background-color: #121212;
   font-family: "Roboto", sans-serif;
   font-size: clamp(2rem, 3vw, 2rem);
   padding: 5rem 0;
