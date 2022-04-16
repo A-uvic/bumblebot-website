@@ -184,6 +184,10 @@ table {
 .navbar .menu a {
   color: #FFFFFF;
   text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.navbar .menu a:hover {
+  color: #999999;
 }
 
 .navbar.sticky {
@@ -246,7 +250,9 @@ table {
   padding: 1rem;
   background-color: #0078ff;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
   font-family: "Titillium Web", sans-serif;
+  text-shadow: 0.5px 0.5px #121212;
 }
 .card .card-bg {
   background-position: center top;
@@ -283,31 +289,40 @@ table {
   background-image: url(../assets/card-bg/bg-card-bronze.jpg);
 }
 .card .bronze-effect {
-  background: rgb(205, 127, 50);
-  background: linear-gradient(90deg, rgba(205, 127, 50, 0.42) 100%, rgb(255, 255, 255) 100%);
+  background: #cd7f32;
+  background-color: rgba(205, 127, 50, 0.4);
 }
 .card .silver-bg {
   background-image: url(../assets/card-bg/bg-card-silver.jpg);
 }
 .card .silver-effect {
-  background: rgb(97, 96, 95);
-  background: linear-gradient(90deg, rgba(97, 96, 95, 0.5242297603) 100%, rgb(255, 255, 255) 100%);
+  background: #C0C0C0;
+  background-color: rgba(192, 192, 192, 0.4);
 }
 .card .gold-bg {
   background-image: url(../assets/card-bg/bg-card-gold.jpg);
 }
 .card .gold-effect {
-  background: rgb(255, 215, 0);
-  background: linear-gradient(90deg, rgba(255, 215, 0, 0.42) 100%, rgb(255, 255, 255) 100%);
+  background: #FFD700;
+  background-color: rgba(255, 215, 0, 0.4);
 }
 .card .bronze-btn {
-  background: rgb(205, 127, 50);
+  background: #cd7f32;
+}
+.card .bronze-btn:hover {
+  background-color: #7b4c1e;
 }
 .card .silver-btn {
-  background: rgb(97, 96, 95);
+  background: #C0C0C0;
+}
+.card .silver-btn:hover {
+  background-color: #8d8d8d;
 }
 .card .gold-btn {
-  background: rgb(255, 215, 0);
+  background: #FFD700;
+}
+.card .gold-btn:hover {
+  background-color: #998100;
 }
 
 .reveal.active {
@@ -467,12 +482,19 @@ header .blue-effect .hello-container .primary-btns button {
   padding: 1rem;
   background-color: #0078ff;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+header .blue-effect .hello-container .primary-btns button:hover {
+  background-color: #004899;
 }
 header .blue-effect .hello-container .primary-btns .test {
   z-index: 1;
 }
 header .blue-effect .hello-container .primary-btns .test button {
   background: #01afe9;
+}
+header .blue-effect .hello-container .primary-btns .test button:hover {
+  background-color: #016383;
 }
 header .particle-container {
   margin-top: -0.4em;
@@ -658,6 +680,10 @@ footer .links a {
   color: #347CDB;
   font-size: clamp(1.5rem, 3vw, 2rem);
   padding: 0 1rem;
+  transition: 0.2s ease-in-out;
+}
+footer .links a:hover {
+  color: #194c90;
 }
 
 @media (max-width: 1300px) {

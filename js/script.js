@@ -38,7 +38,7 @@ for (let i = 0; i < accordion.length; i++) {
     });
 }
 //
-icon.addEventListener("click", function(){
+icon.addEventListener("click", function () {
     let menu = document.querySelector(".menu")
     menu.classList.toggle("active")
 })

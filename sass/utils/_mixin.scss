@@ -44,6 +44,7 @@
     padding: 1rem;
     background-color: $primary-blue;
     cursor: pointer;
+    transition: 0.2s ease-in-out;
 }
 
 //Reveal mixin
@@ -53,15 +54,21 @@
     opacity: 0;
     transition: all 1s ease;
 }
-.reveal.active{
+.reveal.active {
     transform: translateY(0px);
     opacity: 1;
 }
-.prices.reveal.active{
+.prices.reveal.active {
     transform: translateY(0px);
     opacity: 1;
 }
-.faqs.reveal.active{
+.faqs.reveal.active {
     transform: translateY(0px);
     opacity: 1;
+}
+
+//Mixin for bg cards color effect
+@mixin bg-effect($color) {
+    background: $color;
+    background-color: rgba(red($color), green($color), blue($color), .4);
 }

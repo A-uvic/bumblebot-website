@@ -14,6 +14,7 @@
     button {
         @include button;
         font-family: $secondary-font;
+        text-shadow: .5px .5px $black;
     }
 
     .card-bg {
@@ -53,31 +54,37 @@
         background-image: url(../assets/card-bg/bg-card-bronze.jpg);
     }
     .bronze-effect {
-        background: rgb(205, 127, 50);
-        background: linear-gradient(90deg, rgba(205, 127, 50, 0.42) 100%, rgba(255, 255, 255, 1) 100%);
+        @include bg-effect($bronze);
     }
     .silver-bg {
         background-image: url(../assets/card-bg/bg-card-silver.jpg);
     }
     .silver-effect {
-        background: rgb(97, 96, 95);
-        background: linear-gradient(90deg, rgba(97, 96, 95, 0.5242297602634804) 100%, rgba(255, 255, 255, 1) 100%);
+        @include bg-effect($silver);
     }
     .gold-bg {
         background-image: url(../assets/card-bg/bg-card-gold.jpg);
     }
     .gold-effect {
-        background: rgb(255, 215, 0);
-        background: linear-gradient(90deg, rgba(255, 215, 0, 0.42) 100%, rgba(255, 255, 255, 1) 100%);
+        @include bg-effect($gold);
     }
 
     .bronze-btn {
-        background: rgb(205, 127, 50);
+        background: $bronze;
+        &:hover {
+            background-color: darken($bronze, 20%);
+        }
     }
     .silver-btn {
-        background: rgb(97, 96, 95);
+        background: $silver;
+        &:hover {
+            background-color: darken($silver, 20%);
+        }
     }
     .gold-btn {
-        background: rgb(255, 215, 0);
+        background: $gold;
+        &:hover {
+            background-color: darken($gold, 20%);
+        }
     }
 }
