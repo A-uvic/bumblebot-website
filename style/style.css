@@ -252,7 +252,7 @@ table {
   cursor: pointer;
   transition: 0.2s ease-in-out;
   font-family: "Titillium Web", sans-serif;
-  text-shadow: 0.5px 0.5px #121212;
+  text-shadow: 0px 0px 15px #121212;
 }
 .card .card-bg {
   background-position: center top;
