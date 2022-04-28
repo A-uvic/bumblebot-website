@@ -70,5 +70,5 @@
 //Mixin for bg cards color effect
 @mixin bg-effect($color) {
     background: $color;
-    background-color: rgba(red($color), green($color), blue($color), .4);
+    background-color: rgba(red($color), green($color), blue($color), 0.4);
 }

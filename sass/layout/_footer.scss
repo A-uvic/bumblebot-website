@@ -36,9 +36,9 @@ footer {
             color: $light-blue;
             font-size: $base-font-size;
             padding: 0 1rem;
-            transition: .2s ease-in-out;
+            transition: 0.2s ease-in-out;
             &:hover {
-                color: darken($light-blue, 20%)
+                color: darken($light-blue, 20%);
             }
         }
     }
