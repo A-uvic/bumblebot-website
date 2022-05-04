@@ -102,7 +102,7 @@ section {
 }
 
 html {
-  color: #FFFFFF;
+  color: #ffffff;
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
@@ -182,7 +182,7 @@ table {
   transition: 0.5s ease;
 }
 .navbar .menu a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   transition: 0.2s ease-in-out;
 }
@@ -193,7 +193,7 @@ table {
 .navbar.sticky {
   z-index: 111111;
   position: fixed;
-  height: 6rem;
+  height: 4.2rem;
   top: 0%;
   bottom: 0%;
   background-color: #121212;
@@ -242,7 +242,7 @@ table {
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 3rem;
   height: 4.5rem;
   width: 22rem;
@@ -296,14 +296,14 @@ table {
   background-image: url(../assets/card-bg/bg-card-silver.jpg);
 }
 .card .silver-effect {
-  background: #C0C0C0;
+  background: #c0c0c0;
   background-color: rgba(192, 192, 192, 0.4);
 }
 .card .gold-bg {
   background-image: url(../assets/card-bg/bg-card-gold.jpg);
 }
 .card .gold-effect {
-  background: #FFD700;
+  background: #ffd700;
   background-color: rgba(255, 215, 0, 0.4);
 }
 .card .bronze-btn {
@@ -313,13 +313,13 @@ table {
   background-color: #7b4c1e;
 }
 .card .silver-btn {
-  background: #C0C0C0;
+  background: #c0c0c0;
 }
 .card .silver-btn:hover {
   background-color: #8d8d8d;
 }
 .card .gold-btn {
-  background: #FFD700;
+  background: #ffd700;
 }
 .card .gold-btn:hover {
   background-color: #998100;
@@ -354,7 +354,7 @@ table {
   justify-content: center;
   width: 2rem;
   height: 3rem;
-  border: #FFFFFF solid 0.3rem;
+  border: #ffffff solid 0.3rem;
   border-radius: 2rem;
 }
 .scroll-container .scroll .scroll-arrow {
@@ -380,14 +380,14 @@ table {
   font-family: "Roboto", sans-serif;
   margin-top: 2rem;
   font-size: clamp(1.5rem, 3vw, 2rem);
-  background-color: #347CDB;
+  background-color: #347cdb;
 }
 .acordion .acordion-item .acordion-title {
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .acordion .acordion-item .acordion-title label {
@@ -474,7 +474,7 @@ header .blue-effect .hello-container .primary-btns button {
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 3rem;
   height: 4.5rem;
   width: 22rem;
@@ -527,7 +527,7 @@ header .particle-container .particle {
 }
 
 .info {
-  color: #347CDB;
+  color: #347cdb;
   display: flex;
   align-items: center bottom;
   flex-direction: row;
@@ -555,7 +555,7 @@ header .particle-container .particle {
 .info .info-text h1 {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
-  color: #347CDB;
+  color: #347cdb;
   font-size: clamp(2rem, 5vw, 5rem);
 }
 .info .info-text p {
@@ -573,7 +573,7 @@ header .particle-container .particle {
 }
 .info .info-text .shorts p {
   font-weight: italic;
-  color: #347CDB;
+  color: #347cdb;
 }
 
 .prices-container {
@@ -639,7 +639,7 @@ header .particle-container .particle {
 .faq-container .faqs .faq-title h1 {
   font-family: "Titillium Web", sans-serif;
   font-size: clamp(2rem, 5vw, 5rem);
-  color: #347CDB;
+  color: #347cdb;
 }
 
 footer {
@@ -654,7 +654,7 @@ footer {
   width: 100%;
 }
 footer h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: clamp(2rem, 5vw, 5rem);
   font-family: "Fira Sans", sans-serif;
   opacity: 0.1;
@@ -674,10 +674,10 @@ footer .credits h2 {
 }
 footer .credits h2 mark {
   background-color: transparent;
-  color: #347CDB;
+  color: #347cdb;
 }
 footer .links a {
-  color: #347CDB;
+  color: #347cdb;
   font-size: clamp(1.5rem, 3vw, 2rem);
   padding: 0 1rem;
   transition: 0.2s ease-in-out;
