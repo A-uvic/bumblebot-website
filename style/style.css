@@ -686,7 +686,7 @@ footer .links a:hover {
   color: #194c90;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .info img {
     display: none;
   }
